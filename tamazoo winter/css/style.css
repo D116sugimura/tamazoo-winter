@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(240, 181, 248);
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: inline-block;
+    margin: 20px 0 0 0;
+    color: #000000;
+}
+main{
+    margin: 90px auto 90px auto;
+    box-sizing: border-box;
+    padding: 0 2%;
+    max-width: auto;
+}
+h1{
+    text-align: center;
+}
+img{
+    width: 300px;
+    text-align: center;
+
+}
+.items{
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+.header-text{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.header-title{
+    font-size: 3rem;
+}
+
+header video{
+    object-fit: cover;
+    object-position: center top;
+}
+.header-text, .header-pattern, header video{
+    width: 100%;
+    height: 100vh;
+}
+
+footer{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+}
